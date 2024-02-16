@@ -6,6 +6,8 @@ namespace NUnitDemonstration.Tests
     {
         /* This Test will verify whether it is valid triangle when sum of firstAngle, secondAngle and thirdAngle  have sum of 180.
             Here the firstAngle == secondAngle == thirdAngle
+
+        code by Ravneet
         */
         [Test]
         public void ValidTriangle_ValidInput_ReturnsValidMessage()
@@ -22,6 +24,7 @@ namespace NUnitDemonstration.Tests
 
         /* This Test will verify whether it is valid triangle when sum of firstAngle, secondAngle and thirdAngle  have sum of 180.
             Here the firstAngle != secondAngle != thirdAngle
+         code by Ravneet
         */
 
         [Test]
@@ -39,6 +42,7 @@ namespace NUnitDemonstration.Tests
 
         /* This Test will verify whether it is valid triangle when sum of firstAngle, secondAngle and thirdAngle  have sum of 180.
             Here the sum of all angles is not equal to 180. So, it is not a valid Triangle
+         code by Ravneet
         */
 
         [Test]
@@ -53,10 +57,11 @@ namespace NUnitDemonstration.Tests
             // Assert
             Assert.AreEqual("The triangle is NOT valid.", result);
         }
-      
+
 
         /* This Test will verify whether it a valid triangle or not.
          * Valid Triangle must not have any negative angle, so for the below test, it is not a valid Triangle
+         *   code by Ravneet
         */
 
         [Test]
@@ -75,6 +80,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Scalene triangle or not
          * Scalene Triangle must have different Angles and sum of the angles still must be 180.
          * Below Test is a valid Scalene Triangle.
+         *  code by Ravneet
         */
         [Test]
         public void ValidScaleneTriangle_ValidInput_ReturnsValidMessage()
@@ -95,6 +101,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Scalene triangle or not
          * Scalene Triangle must have different angles and sum of the angles still must be 180.
          * Below Test is a invalid scalene as two angles have same value.
+         *  code by Ravneet
         */
 
         [Test]
@@ -115,6 +122,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Scalene triangle or not
         * Scalene Triangle must have different angles and sum of the angles still must be 180.
         * Below Test is a invalid scalene as sum of three angles is greater than 180 which means it is an invalid Triangle
+        *  code by Ravneet
        */
 
         [Test]
@@ -135,6 +143,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Isosceles triangle or not
         * Isosceles Triangle must have same two angles and sum of the angles still must be 180.
         * Below Test is a valid Isosceles as it has two angles with the same value
+        *  code by Ravneet
        */
 
         [Test]
@@ -153,6 +162,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Isosceles triangle or not
         * Isosceles Triangle must have same two angles and sum of the angles still must be 180.
         * Below Test is a Invalid Isosceles as it has each different angle
+        *  code by Ravneet
        */
 
 
@@ -173,6 +183,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Isosceles triangle or not
         * Isosceles Triangle must have same two angles and sum of the angles still must be 180.
         * Below Test is a Invalid Isosceles as the sum of all angles is greater than 180.
+        *  code by Ravneet
        */
 
         [Test]
@@ -191,6 +202,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Equilateral triangle or not
         * Equilateral Triangle must have all angles  as same and sum of the angles still must be 180.
         * Below Test is a valid Equilateral as the three angles have same value
+        *  code by Ravneet
        */
 
         [Test]
@@ -209,6 +221,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Equilateral triangle or not
         * Equilateral Triangle must have all angles  as same and sum of the angles still must be 180.
         * Below Test is a Invalid Equilateral as the three angles have sum greater than 180.
+        *  code by Ravneet
        */
 
         [Test]
@@ -227,6 +240,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Equilateral triangle or not
         * Equilateral Triangle must have all angles  as same and sum of the angles still must be 180.
         * Below Test is a Invalid Equilateral as the three angles have each different value.
+        *  code by Ravneet
        */
 
 
@@ -246,6 +260,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Right triangle or not
         * Right Triangle must have atleast one angle as 90 and sum of the angles still must be 180.
         * Below Test is a Right Equilateral as the one of the angle has 90 value
+        *  code by Ravneet
        */
 
         [Test]
@@ -264,6 +279,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Right triangle or not
         * Right Triangle must have atleast one angle as 90 and sum of the angles still must be 180.
         * Below Test is a Invalid Right Equilateral as the no angle has a value of 90.
+        *  code by Ravneet
        */
 
         [Test]
@@ -283,6 +299,7 @@ namespace NUnitDemonstration.Tests
         /* This Test will verify whether it a valid Right triangle or not
         * Right Triangle must have atleast one angle as 90 and sum of the angles still must be 180.
         * Below Test is a Invalid Right Equilateral as the sum of the angle is not equal to 180.
+        *  code by Ravneet
        */
         [Test]
         public void ValidRightTriangle_InValidInput_ReturnsValidMessage()
